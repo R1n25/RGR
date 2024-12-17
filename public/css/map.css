@@ -1,0 +1,49 @@
+.map-section {
+    padding: 2rem 0;
+}
+
+.contact-info {
+    margin-bottom: 2rem;
+}
+
+.map-container {
+    margin: 2rem 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.directions {
+    margin-top: 2rem;
+}
+
+.transport-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.option {
+    background: #f5f5f5;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.option h4 {
+    color: var(--primary);
+    margin-top: 0;
+}
+
+.map-info-window {
+    padding: 0.5rem;
+}
+
+.map-info-window h3 {
+    margin: 0 0 0.5rem 0;
+    color: var(--primary);
+}
+
+.map-info-window p {
+    margin: 0.25rem 0;
+} 
